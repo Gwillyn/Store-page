@@ -35,10 +35,11 @@
     top: 20px;
     right: 30px;
     width: 400px;
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 10px;
     height: 40px;
     background-color: white;
+
 }
 
 .navbar ul {
@@ -46,6 +47,42 @@
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
+
+}
+#cartBtn {
+    height: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.navbar a {
+    color: black;
+}
+
+#cart {
+    border: none;
+    right: 50px;
+    
+}
+
+#cartArrow {
+    width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 15px solid black;
+    position: fixed;
+    top: 55px;
+    right: 88px;
+}
+.cartContainer {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position: fixed;
+    background-color: white;
+    right: 5px;
+    top: 67px;
 }
 
 #searchBar {
