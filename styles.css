@@ -138,6 +138,10 @@
 
 
 }
+#svgBtn {
+    margin-left: -6px;
+    margin-top: 2px;
+}
 
 #searchBar input {
     font-size: 15px;
@@ -220,6 +224,56 @@ h2:hover {
     border-radius: 20px;
     background-color: #ffcb00;
     border: 1px solid black;
+}
+
+footer p {
+    margin-top: 50px;
+    background-color: black; 
+    border-top: 1px solid black;
+    padding: 2px;
+    text-align: right;
+    font-size: 10px;
+    cursor: default;
+    color: white;
+}
+#contact {
+    margin: 0 auto 0 auto;
+}
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 0 auto;
+    max-width: 900px;
+    align-items: center;
+}
+.github,
+.instagram,
+.mail,
+.phone {
+    padding: 10px 10px 6px 10px;
+    border-radius: 60px;
+    background-color: #ffcb00;
+    border: 2px solid black;
+    box-shadow: 2px 2px;
+
+
+}
+
+.github a,
+.instagram a,
+.mail a,
+.phone a {
+    text-decoration: none;
+    color: black;
+}
+
+.github:hover,
+.instagram:hover,
+.mail:hover,
+.phone:hover {
+    transform: translateY(-3px);
+    box-shadow: 5px 5px;
+
 }
 
 @media only screen and (max-width: 1123px) {
