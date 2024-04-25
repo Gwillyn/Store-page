@@ -21,7 +21,7 @@
     background-position: left;
     background-position-y: -150px;
     margin-bottom: -20px;
-    animation: slide 8s linear infinite;
+    animation: slide 40s linear infinite;
 
 }
 
@@ -247,6 +247,9 @@ h2:hover {
         width: 350px;
         margin: 0 auto 0 auto;
         position: sticky;
+    }
+    #cover {
+        width: 2000px;
     }
     .elementContainer {
         border: 0;
