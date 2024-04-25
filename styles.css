@@ -252,6 +252,7 @@ h2:hover {
         border: 0;
         border-radius: 10px;
         background-color: #d6870033;
+        box-shadow: 5px 5px;
     }
 }
 
