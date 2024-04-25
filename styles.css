@@ -234,6 +234,14 @@ h2:hover {
         background-position-y: -50px;
         width: 500%;
     }
+    .cartContainer {
+        right: 2px;
+        top: 77vh;
+        
+    }
+    #cartArrow {
+        opacity: 0;
+    }
 
     .navbar {
         margin: 0 auto 0 auto;
@@ -247,6 +255,9 @@ h2:hover {
         width: 350px;
         margin: 0 auto 0 auto;
         position: sticky;
+    }
+    #cartBtn {
+        height: 20px;
     }
     #cover {
         width: 2000px;
