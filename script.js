@@ -4,7 +4,7 @@ const cartBtn = document.getElementById('cartBtn');
 cartBtn.onfocus = function cartShow() {
     cart.show();
 }
-cart.onblur = function cartHide() {cart.close();}
+cart.onblur = function cartHide() { cart.close(); }
 
 
 

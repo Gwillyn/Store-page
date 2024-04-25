@@ -6,10 +6,12 @@
     transition-duration: 200ms;
     scroll-behavior: smooth;
 }
+
 #coverContainer {
     width: 100%;
     overflow: hidden;
 }
+
 #cover {
     width: 300%;
     height: 800px;
@@ -19,7 +21,7 @@
     background-position: left;
     background-position-y: -150px;
     margin-bottom: -20px;
-    animation: slide 40s linear infinite;
+    animation: slide 8s linear infinite;
 
 }
 
@@ -113,6 +115,7 @@
     right: 5px;
     top: 67px;
     box-shadow: 2px 2px;
+    z-index: 5;
 }
 
 #searchBar {
@@ -190,8 +193,9 @@ h2:hover {
     overflow: auto;
     justify-content: space-around;
     gap: 10px;
-    scrollbar-color: #d6870048 #ffcb00;
-    scrollbar-width: thin;
+    scrollbar-color: black #d6870033;
+    scrollbar-width: large;
+    scrollbar-arrow-color: white;
     margin: 20px;
     align-items: center;
     border: 2px solid black;
@@ -228,7 +232,14 @@ h2:hover {
     #cover {
         height: 500px;
         background-position-y: -50px;
+        width: 500%;
     }
+
+    .navbar {
+        margin: 0 auto 0 auto;
+        position: sticky;
+    }
+
 
 }
 
