@@ -193,7 +193,7 @@ h2:hover {
     overflow: auto;
     justify-content: space-around;
     gap: 10px;
-    scrollbar-color: black #d6870033;
+    scrollbar-color: black transparent;
     scrollbar-width: large;
     scrollbar-arrow-color: white;
     margin: 20px;
@@ -241,6 +241,18 @@ h2:hover {
     }
 
 
+}
+@media only screen and (max-width: 600px) {
+    .navbar {
+        width: 350px;
+        margin: 0 auto 0 auto;
+        position: sticky;
+    }
+    .elementContainer {
+        border: 0;
+        border-radius: 10px;
+        background-color: #d6870033;
+    }
 }
 
 @keyframes slide {
